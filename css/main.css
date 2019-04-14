@@ -107,9 +107,8 @@ body {
 
 header {
   position: relative;
-  height: 100%;
-  width: 33.3%;
-  float: left;
+  height: 100px;
+  width: 100%;
   background: -moz-linear-gradient(346deg, rgba(0,255,0,1) 0%, rgba(0,255,0,1) 21%, rgba(249,255,222,1) 50%, rgba(255,146,13,1) 65%, rgba(255,146,13,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,255,0,1)), color-stop(21%, rgba(0,255,0,1)), color-stop(50%, rgba(249,255,222,1)), color-stop(65%, rgba(255,146,13,1)), color-stop(100%, rgba(255,146,13,1))); /* safari4+,chrome */
 background: -webkit-linear-gradient(346deg, rgba(0,255,0,1) 0%, rgba(0,255,0,1) 21%, rgba(249,255,222,1) 50%, rgba(255,146,13,1) 65%, rgba(255,146,13,1) 100%); /* safari5.1+,chrome10+ */
@@ -117,6 +116,11 @@ background: -o-linear-gradient(346deg, rgba(0,255,0,1) 0%, rgba(0,255,0,1) 21%, 
 background: -ms-linear-gradient(346deg, rgba(0,255,0,1) 0%, rgba(0,255,0,1) 21%, rgba(249,255,222,1) 50%, rgba(255,146,13,1) 65%, rgba(255,146,13,1) 100%); /* ie10+ */
 background: linear-gradient(104deg, rgba(0,255,0,1) 0%, rgba(0,255,0,1) 21%, rgba(249,255,222,1) 50%, rgba(255,146,13,1) 65%, rgba(255,146,13,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff00', endColorstr='#FF920D',GradientType=1 ); /* ie6-9 */
+}
+
+#idiomas {
+  position: relative;
+  display: inline-block;
 }
 
 #logo {
