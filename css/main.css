@@ -107,7 +107,7 @@ body {
 
 header {
   position: relative;
-  height: 100px;
+  height: 140px;
   width: 100%;
   background: -moz-linear-gradient(346deg, rgba(0,255,0,1) 0%, rgba(0,255,0,1) 21%, rgba(249,255,222,1) 50%, rgba(255,146,13,1) 65%, rgba(255,146,13,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,255,0,1)), color-stop(21%, rgba(0,255,0,1)), color-stop(50%, rgba(249,255,222,1)), color-stop(65%, rgba(255,146,13,1)), color-stop(100%, rgba(255,146,13,1))); /* safari4+,chrome */
@@ -120,7 +120,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff00', end
 
 #idiomas {
   position: relative;
-  display: inline-block;
+  display: table-cell;
+  padding: 10px 0 0 10px;
+  font-size: 13px;
+}
+
+a.english{
+  position: relative;
+  display: table-cell;
+  text-decoration: none;
+}
+
+a.gaelic{
+  position: relative;
+  display: table-cell;
+  padding-left: 8px;
+  text-decoration: none;
+}
+
+spam {
+  margin-left: 6px;
 }
 
 #logo {
@@ -130,7 +149,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff00', end
 }
 
 h1{
-  margin-left: 5px;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  font-family: "Tempus Sans itc","Brush Script Std", chiller, arial;
+  color: #ca4248;
+  font-size: 80px;
+}
+
+#metalman {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 20px;
+  left: 300px;
+  display: table-cell;
 }
 
 #derecha {
