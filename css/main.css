@@ -123,6 +123,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff00', end
   display: table-cell;
   padding: 10px 0 0 10px;
   font-size: 13px;
+  border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+  display: table-cell;
 }
 
 a.english{
@@ -151,19 +162,25 @@ spam {
 h1{
   text-align: center;
   position: relative;
-  top: -100px;
+  border: 1px solid red;
+  top: -195px;
   font-family: "Tempus Sans itc","Brush Script Std", chiller, arial;
   color: #ca4248;
   font-size: 80px;
 }
 
 #metalman {
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  top: 20px;
-  left: 300px;
-  display: table-cell;
+  position: relative;
+  align: center;
+  width: 5.5em;
+  height: 5.5em;
+  top: -40px;
+  left: 450px;
+  border: 1px solid red;
+}
+
+nav {
+  border: 1px solid red;
 }
 
 #derecha {
